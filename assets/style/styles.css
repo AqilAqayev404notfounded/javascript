@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(73, 161, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.kub {
+  background-color: rgb(10, 10, 125);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+
+.write h1 {
+  margin-bottom: 20px;
+}
+
+.comand {
+  margin-bottom: 20px;
+}
+.comand .task-input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+.comand .add-task-btn {
+  background-color: rgb(231, 76, 60);
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content .task-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.content .task-item li {
+  list-style-type: none;
+  background-color: #06064e;
+  padding: 5px;
+  padding-right: 190px;
+  border-radius: 5px;
+  flex: 1;
+}
+.content .task-item .delete-btn {
+  background-color: yellow;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}/*# sourceMappingURL=styles.css.map */
